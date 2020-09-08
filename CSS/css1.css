@@ -1,0 +1,45 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#one, #two, #three, #four{
+    border-style: solid;
+    border-width: 5px;
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+}
+#one {
+    border-color: blue;
+    bottom: 20px;
+    left: 70%;
+}
+#two{
+    border-color: green;
+    top: 20px;
+    left: 70%;
+}
+
+#three{
+    border-color: orange;
+    top: 20px;
+    right:70%;
+}
+
+#four{
+    border-color: yellow;
+    right: 70%;
+    bottom: 20px;
+}
+
+#link a{
+    background-color: #354eb1;
+    color:#fefefe;
+    text-decoration: none;
+    position: absolute;
+    left: 45%;
+    top: 25px;
+}
+
+
